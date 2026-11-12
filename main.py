@@ -43,7 +43,7 @@ def main():
         long_success = create_long_form_video(
             query_keyword=topic, 
             output_path=long_output_path, 
-            target_duration=1800  # <--- Set your desired length in seconds here
+            target_duration=600  # <--- Set your desired length in seconds here
         )
 
         if long_success:
